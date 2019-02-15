@@ -1,0 +1,41 @@
+0911110,Introduction to Computing,3,null
+0912111,Fundamentals of IS,3,null
+0817111,Calculus,3,null
+0814132,Physics,4,null
+7401101,Islamic Creed & Contemporary Doctrines,2,null
+0911120,Fund. of Programming,3,0911110
+0913121,Electronics,4,0814132
+0816152,Biology,4,null
+0817208,Intro. To Statistics & Probability Theory,3,0817111
+7401301,Islamic & Profession’s Morals,2,7401101
+0911210,Object Oriented Prog. (1),3,0911120
+0911211,Data Structure,2,0911120
+0912212,Technical Reports,2,0912111
+0913213,Digital Hardware,3,0913121
+0914214,Com. & Network Fund.,3,0911110
+0817301,Discrete Math,3,0817208
+0911220,Object Oriented Prog. (2),3,0911210
+0911221,Operating Systems,3,0913213
+0912222,Database Concepts & Design,3,0912111
+0914223,Net. Protocols & E-Commerce Technology,3,0914214
+0622290,Business (1),3,0912111
+0911310,Software Engineering,3,0912222
+0911311,Algorithms Analysis & Design,3,0817301
+0912312,Professional Responsibility,2,0912212
+0913313,Computer Organization,3,0913213
+0817125,Logic & proof Techniques,3,0817301
+0911320,Computer Data Security & Privacy,3,0911221
+0911321,Language Theory & Finite Automata,3,0817125
+0912322,Human Computer Interaction,3,0911220
+0912323,Web-Based Systems,3,0912222
+0817302,Numerical Analysis,3,0817301
+0911410,Project Proposal,2,null
+0911411,Artificial Intelligence,3,0817125
+0911412,Mobile Computing,3,0914223
+0911414,Modeling & Simulation,3,0817301
+0911424,Advanced Operating Systems,3,0911311
+0911420,Project Implementation,3,0911410
+0911421,Selected Topics in CS,3,0911410
+0911423,Computer Vision & Comp Graphics,3,0911220
+0911413,Basic Language Translator (Compiler),3,0911321
+0911425,Mobile Applications Programming,3,0914223
