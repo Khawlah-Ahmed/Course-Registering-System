@@ -1,2 +1,9 @@
-# Course-Registering-System
+# Course Registering System
 A project developed in java (GUI), that can help departments in universities create a valid 4-year study plan in which it considers the prerequisites of each course and manage how to arrange them. The information of the courses and their prerequisites are read from a CSV file. This project is dedicated for "Algorithm Analysis and Design" course.
+
+# Problem Description:
+In a properly built course registering system, students are not allowed to register for a course if they have not taken the prerequisite course(s). However, if there is a cycle of prerequisite courses then students cannot register some of the courses at all. You have been asked to develop a system to help a department in a university to identify if there are any such courses that the course registering system will not allow students to register. 
+
+Additionally you have to create a study plan for 4 years. You can assume that there are two semesters in each year and in 4 years a student will take all the courses.  Assume that there is no elective courses. Ideally you should assign the courses in such way that in each semester a student registers similar number of credit hours. As an example if there are total of 120 credit hours, each semester ideally a student should take 120/8=15 credit hours. However, it might not always be possible since a course can be registered only after the prerequisites have been taken.
+
+You need to manually create an input file consisting of courses offered in a department (eg. Computer Engineering, Civil Engineering etc.). You have to select a department (from KFU or outside) and create that input file consulting the course catalog of that department. The file should consist course name, prerequisite of the course and number of credit hours of the course. You have to read this file from your program. Then you have to check if there are any cycles of prerequisite courses.  If there is a cycle output “No Study Plan Possible”, otherwise you have to create a study plan for 4 years.
