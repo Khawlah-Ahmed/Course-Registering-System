@@ -12,8 +12,7 @@ You need to manually create an input file consisting of courses offered in a dep
 # Project Abstract:
 The aim of this project is to develop a system that helps computer science (CS) department at King Faisal University (KFU) to maintain the prerequisite(s) of each course and detect if there is a cycle of prerequisite courses. Therefore, it will support the course registering system to be built properly. The CS students in KFU are allowed to register for courses and are prevented to register if they did not take the prerequisite(s) for a specific course. ‏The system implies a 4-year study plan for the department with a total of 120 credit hours and consisting of 8 semesters each carrying about 15 credit hours. ‏The system reads an input file that consists of courses offered in the CS department. Then, it creates a proper study plan for 4 years so students will be able to register a specific course provided that they have taken the prerequisite(s) for that course. ‏The system uses directed graph (Digraph) implemented as an adjacency linked list to represent the courses with their prerequisites. In addition, the system should detect any cycle of prerequisite courses in the graph which can result when there is a path from a node (course) that leads to itself. The cycle of prerequisite courses will be detected by a Depth First Search (DFS) algorithm. After that, in case no cycle is detected, a Topological Sorting algorithm will generate a topological order to assign courses to each semester properly to create a 4-year study plan. Otherwise, if a cycle is detected, the system will show that no study plan is possible.
 
-Keywords: Directed Graph (Digraph), Adjacency Linked List, Cycle Detection,
-Depth First Search (DFS) Algorithm, Topological Sorting Algorithm.
+#### Keywords: Directed Graph (Digraph), Adjacency Linked List, Cycle Detection, Depth First Search (DFS) Algorithm, Topological Sorting Algorithm.
 
  
 
